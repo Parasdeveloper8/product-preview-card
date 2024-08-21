@@ -1,0 +1,63 @@
+body{
+    overflow:hidden;
+    width:100vw;
+    height:100vh;
+    background-color: hsl(30, 38%, 92%);
+}
+.main-div{
+    margin:auto;
+    width:60vw;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 10px;
+    height:90vh;
+}
+.perfume{
+    text-transform: uppercase;
+    letter-spacing: 1vw;
+}
+.silver{
+    color:rgb(153, 152, 152);
+}
+button{
+    width:22vw;
+    color:white;
+    background-color: hsl(158, 36%, 37%);
+    border:none;
+    display:flex;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 5vh;
+}
+img{
+    width:30vw;
+    height:90vh;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.rate1{
+    color:hsl(158, 36%, 37%);
+    font-size: 2rem;
+}
+.rate2{
+    text-decoration: line-through;
+    margin-left: 2vw;
+}
+li{
+    list-style-image: url("/images/icon-cart.svg");
+}
+.family{
+    font-family: system-ui;
+}
+.rate-div{
+    display:flex;
+    align-items: center;
+    height:5vh;
+}
+.detail-div{
+    margin-left: 4vw;
+    margin-right: 4vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
