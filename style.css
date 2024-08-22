@@ -45,7 +45,7 @@ img{
     margin-left: 2vw;
 }
 li{
-    list-style-image: url("/images/icon-cart.svg");
+    list-style-image: url("./images/icon-cart.svg");
 }
 .family{
     font-family: system-ui;
@@ -60,4 +60,34 @@ li{
     margin-right: 4vw;
     margin-top: 3vh;
     margin-bottom: 3vh;
+}
+@media only screen and (max-width:900px){
+    body{
+        width:100vw;
+        height:100vh;
+        margin:0;
+        overflow:hidden;
+    }
+    .main-div{
+        margin-left:2vw;
+        margin-right:2vw;
+        width:96vw;
+        margin-top:4vh;
+        margin-bottom:4vh;
+        height:92vh;
+        display:flex;
+        flex-direction:column;
+    }
+    img{
+        height:36.8vh;
+        width:96vw;
+        border-bottom-left-radius:0;
+        border-top-right-radius:10px;
+    }
+    button{
+        width:88vw; 
+        font-size:1.4rem;
+        display:flex;
+        justify-content:center;
+    }
 }

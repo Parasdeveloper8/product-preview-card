@@ -13,7 +13,11 @@
 <body>
  <div class="main-div">
   <div class="product-div">
-    <img src="images/image-product-desktop.jpg">
+    <picture>
+      <source srcset="./images/image-product-mobile.jpg" media="(max-width:900px)">
+      <source srcset="./images/image-product-desktop.jpg" media="(min-width:1101px)">
+      <img src="./images/image-product-desktop.jpg" alt="fallback image">
+    </picture>
   </div>
   <div class="detail-div">
     <p class="perfume silver family">Perfume</p>
